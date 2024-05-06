@@ -1,10 +1,10 @@
 services:
   ducks-database:
     image: postgres:alpine
-    container_name: final
+    container_name: midterm
     ports:
       - "6001:5432"
     environment:
       POSTGRES_USERNAME: postgres
       POSTGRES_PASSWORD: password
-      POSTGRES_DB: flowers
+      POSTGRES_DB: mid

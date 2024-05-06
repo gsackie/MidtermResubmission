@@ -1,7 +1,7 @@
 package edu.iu.c322.midterm.security;
 
-import edu.iu.gsackie.C322Final.Model.Customer;
-import edu.iu.gsackie.C322Final.Repository.CustomerRepository;
+import edu.iu.c322.midterm.model.Customer;
+import edu.iu.c322.midterm.repository.CustomerRepository;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
